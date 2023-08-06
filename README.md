@@ -2,7 +2,9 @@
 
 _Crafting Clarity, Efficiency, and Success in Every Project_
 
-<img src="static/hero.png" width="1024" />
+<img src="static/hero.png" width="704" />
+
+## Overview
 
 ProjectCrafter transforms the fundamental structure of a project idea into a meticulously organized, task-oriented set of actionable roles that aim to optimize both project outcomes and organizational objectives. This holistic system streamlines project management from conceptualization to culmination, while also ensuring continuous advancements beyond project completion. It refurbishes the project planning, execution, and review processes, bolstering efficiency, fostering clarity, and improving success ratios.
 
@@ -23,6 +25,10 @@ Finally, ReviewCrafter performs a post-project analysis, extracting key insights
 ### VisionCrafter™
 
 This ground-breaking module functions as the strategic planner for the project. It begins by taking a generic project outline and fine-tuning it, removing any ambiguity or redundancy. VisionCrafter delivers a clear, captivating storyline that defines the project's aim, scope, and targets, built specifically around the target audience. It enhances focused understanding and consistent interpretation amongst various stakeholders by crafting unambiguous, cohesive project blueprints. It's essentially the foundation upon which the rest of the project will be built.
+
+### ResearchCrafter™
+
+Enabling an enriched understanding of the project's context, ResearchCrafter forms the intelligence backbone for ProjectCrafter. It intensively mines the web, research papers, and source code repositories to deliver comprehensive insights on relevant topics, competition, and industry trends. This module, armed with machine learning and natural language processing, analyses complex data and patterns, providing indispensable support to other modules and improving strategic decision-making. By continuously expanding the knowledge base, ResearchCrafter ensures that every project is built upon a deep understanding, enhancing project outcomes and competitive advantage.
 
 ### ExpertCrafter™
 
@@ -60,11 +66,24 @@ This would focus on crafting a robust and effective communication plan, enabling
 
 Finally, a post-project review module would be beneficial, analyzing each stage of the project upon completion to extract valuable lessons, insights, and potential improvements for future projects. This would facilitate continuous learning and improvement within the organization.
 
-## Running the app
+## Setup
+
+### Configuration
+
+Create a copy of `.env.template` named `.env` and fill in the required values (e.g., `OPENAI_API_KEY`).
+
+### Dependencies
 
 Create and activate a fresh Python virtual environment, then run:
 
 ```bash
 pip install -r requirements.txt
+```
+
+### Running
+
+Start the [streamlit](https://streamlit.io/) auto-reload server:
+
+```bash
 streamlit run app.py
 ```
