@@ -4,6 +4,8 @@ _Crafting Clarity, Efficiency, and Success in Every Project_
 
 <img src="static/hero.png" width="704" />
 
+[![CC BY-NC-SA 4.0][cc-by-nc-sa-shield]][cc-by-nc-sa]
+
 ## Overview
 
 ProjectCrafter transforms the fundamental structure of a project idea into a meticulously organized, task-oriented set of actionable roles that aim to optimize both project outcomes and organizational objectives. This holistic system streamlines project management from conceptualization to culmination, while also ensuring continuous advancements beyond project completion. It refurbishes the project planning, execution, and review processes, bolstering efficiency, fostering clarity, and improving success ratios.
@@ -97,3 +99,14 @@ Start the [streamlit](https://streamlit.io/) auto-reload server:
 ```bash
 streamlit run app.py
 ```
+
+## License
+
+This work is licensed under a
+[Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License][cc-by-nc-sa].
+
+[![CC BY-NC-SA 4.0][cc-by-nc-sa-image]][cc-by-nc-sa]
+
+[cc-by-nc-sa]: http://creativecommons.org/licenses/by-nc-sa/4.0/
+[cc-by-nc-sa-image]: https://licensebuttons.net/l/by-nc-sa/4.0/88x31.png
+[cc-by-nc-sa-shield]: https://img.shields.io/badge/License-CC%20BY--NC--SA%204.0-lightgrey.svg
